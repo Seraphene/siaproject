@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Water Refilling Station</title>
+    <link rel="stylesheet" href="homepagestyle.css">
+</head>
+<body>
+
+<!-- Header Section -->
+<header>
+    <div class="container">
+        <div class="logo">
+            <h1>WaterRefillStation</h1>
+        </div>
+        <nav>
+            <a href="#">Home</a>
+            <a href="#order">Order Water</a>
+            <a href="#profile">My Profile</a>
+            <a href="#contact">Contact Us</a>
+        </nav>
+    </div>
+</header>
+
+<!-- Main Banner Section -->
+<section class="main-banner">
+    <div class="banner-content">
+        <h1>Stay Hydrated with Fresh Water Delivered to Your Door!</h1>
+        <p>Order your water refills online, and have them delivered right to your doorstep.</p>
+        <a href="#order" class="cta-btn">Order Now</a>
+    </div>
+</section>
+
+<!-- Order Section -->
+<section id="order" class="order-section">
+    <div class="container">
+        <h2>Order Your Water</h2>
+        <form class="order-form">
+            <div class="form-group">
+                <label for="bottle-size">Select Bottle Size:</label>
+                <select id="bottle-size">
+                    <option value="5-gallon">5 Gallon Bottle</option>
+                    <option value="2.5-gallon">2.5 Gallon Bottle</option>
+                    <option value="1-gallon">1 Gallon Bottle</option>
+                </select>
+            </div>
+            <div class="form-group">
+                <label for="quantity">Quantity:</label>
+                <input type="number" id="quantity" value="1" min="1" />
+            </div>
+            <div class="form-group">
+                <label for="delivery">Delivery Frequency:</label>
+                <select id="delivery">
+                    <option value="one-time">One-time</option>
+                    <option value="weekly">Weekly</option>
+                    <option value="monthly">Monthly</option>
+                </select>
+            </div>
+            <button type="submit" class="cta-btn">Add to Cart</button>
+        </form>
+    </div>
+</section>
+
+<!-- Order Summary Section -->
+<section id="order-summary" class="order-summary">
+    <div class="container">
+        <h3>Order Summary</h3>
+        <div class="summary-details">
+            <p>Quantity: <strong>1</strong> Bottle</p>
+            <p>Total Price: <strong>$5.00</strong></p>
+            <p>Estimated Delivery: <strong>2-3 Days</strong></p>
+        </div>
+        <button class="cta-btn">Proceed to Checkout</button>
+    </div>
+</section>
+
+<!-- Footer Section -->
+<footer>
+    <div class="container">
+        <div class="footer-left">
+            <p>&copy; 2024 WaterRefillStation. All rights reserved.</p>
+        </div>
+        <div class="footer-right">
+            <a href="#contact">Contact Us</a>
+            <a href="#">Privacy Policy</a>
+            <a href="#">Terms of Service</a>
+        </div>
+    </div>
+</footer>
+
+</body>
+</html>

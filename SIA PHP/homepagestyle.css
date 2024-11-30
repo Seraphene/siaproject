@@ -1,0 +1,176 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f8f8f8;
+    color: #333;
+}
+
+.container {
+    width: 90%;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+/* Header */
+header {
+    background-color: #007bff;
+    padding: 20px 0;
+    color: white;
+}
+
+header .logo h1 {
+    margin-left: 20px;
+    display: inline-block;
+    font-size: 2rem;
+}
+
+header nav {
+    float: right;
+    margin-right: 20px;
+}
+
+header nav a {
+    color: white;
+    margin-left: 20px;
+    text-decoration: none;
+    font-size: 1rem;
+}
+
+/* Main Banner */
+.main-banner {
+    background: url('https://www.w3schools.com/w3images/rocks.jpg') no-repeat center center;
+    background-size: cover;
+    color: white;
+    text-align: center;
+    padding: 80px 20px;
+}
+
+.main-banner h1 {
+    font-size: 3.5rem;
+    margin-bottom: 20px;
+}
+
+.main-banner p {
+    font-size: 1.2rem;
+    margin-bottom: 30px;
+}
+
+.cta-btn {
+    background-color: #28a745;
+    color: white;
+    padding: 15px 30px;
+    font-size: 1.2rem;
+    text-decoration: none;
+    border-radius: 5px;
+    display: inline-block;
+}
+
+.cta-btn:hover {
+    background-color: #218838;
+}
+
+/* Order Section */
+.order-section {
+    background-color: #fff;
+    padding: 40px 20px;
+    margin-top: -60px;
+    box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+}
+
+.order-section h2 {
+    text-align: center;
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+}
+
+.order-form {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+}
+
+.order-form .form-group {
+    display: flex;
+    flex-direction: column;
+}
+
+.order-form label {
+    font-size: 1.1rem;
+    margin-bottom: 8px;
+}
+
+.order-form select,
+.order-form input {
+    padding: 12px;
+    font-size: 1rem;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.order-form button {
+    grid-column: span 2;
+    background-color: #28a745;
+    color: white;
+    padding: 12px;
+    font-size: 1.2rem;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.order-form button:hover {
+    background-color: #218838;
+}
+
+/* Order Summary */
+.order-summary {
+    background-color: #fff;
+    padding: 30px;
+    margin-top: 40px;
+    box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+}
+
+.order-summary h3 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.order-summary .summary-details {
+    font-size: 1.2rem;
+    margin-bottom: 20px;
+}
+
+.order-summary .cta-btn {
+    width: 100%;
+    text-align: center;
+}
+
+/* Footer */
+footer {
+    background-color: #007bff;
+    padding: 20px 0;
+    color: white;
+    text-align: center;
+}
+
+footer .footer-left p {
+    margin-bottom: 10px;
+}
+
+footer .footer-right a {
+    color: white;
+    margin-left: 20px;
+    text-decoration: none;
+}
+
+footer .footer-right a:hover {
+    text-decoration: underline;
+}
