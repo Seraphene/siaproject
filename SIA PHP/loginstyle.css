@@ -1,0 +1,105 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #2980b9;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-image: url('https://img.freepik.com/free-photo/water-splash-isolated-white-background_1112-2043.jpg?t=st=1732845596~exp=1732849196~hmac=77500e32ad7616f43662e68fa3834a2a07fc2c13020ffa67222f6b6426bc0eb3&w=740'); /* Background image */
+  background-size: cover;
+  background-position: center;
+  color: #2980b9;
+}
+
+/* Center the login container */
+.login-container {
+  background-image: url('https://img.freepik.com/free-photo/water-splash-isolated-white-background_1112-2043.jpg?t=st=1732845596~exp=1732849196~hmac=77500e32ad7616f43662e68fa3834a2a07fc2c13020ffa67222f6b6426bc0eb3&w=740'); /* Background image */
+  padding: 30px;
+  border-radius: 8px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+  width: 100%;
+  max-width: 400px;
+  text-align: center;
+}
+
+/* title */
+h1 {
+  margin-bottom: 20px;
+  font-size: 28px;
+  color: #5c97e4; 
+  font-weight: bold;
+}
+
+/* Form styling */
+.login-form {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+label {
+  text-align: left;
+  font-size: 14px;
+  color: black;
+  margin-bottom: 5px;
+}
+
+input[type="text"], input[type="password"] {
+  padding: 12px;
+  font-size: 16px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  width: 100%;
+  margin-bottom: 20px;
+}
+
+button[type="submit"] {
+  padding: 12px;
+  background-color: #5c97e4; 
+  color: white;
+  font-size: 16px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+button[type="submit"]:hover {
+  background-color: #5c97e4; 
+}
+
+.forgot-password {
+  margin-top: 10px;
+}
+
+.forgot-password a {
+  font-size: 16px;
+  color: black;
+  text-decoration: none;
+}
+
+.signup-link {
+  margin-top: 10px;
+}
+
+.signup-link a, p {
+  font-size: 16px;
+  color: black;
+  text-decoration: none;
+}
+
+.signup-link a:hover {
+  text-decoration: underline;
+}
+
+@media (max-width: 600px) {
+  .login-container {
+      width: 90%;
+  }
+}
